@@ -48,3 +48,22 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+
+
+
+#Implementation of the Code
+# define a matrix
+#x <-matrix(1:4,2,2)
+# cache the matrix
+#y <- makeCacheMatrix(x)
+#get the cached matrix
+#y$get()
+#      [,1] [,2]
+#[1,]    1    3
+#[2,]    2    4
+#cacheSolve(y)
+#     [,1] [,2]
+#[1,]   -2  1.5
+#[2,]    1 -0.5
+#now get the inverse stored in the cache
+#y$getinverse()
